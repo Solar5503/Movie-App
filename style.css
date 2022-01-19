@@ -44,6 +44,7 @@ header {
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .movie {
@@ -102,6 +103,7 @@ main {
   max-height: 100%;
   transform: translateY(101%);
   transition: transform 0.3s ease-in;
+  overflow-y: auto;
 }
 
 .overview h3 {
